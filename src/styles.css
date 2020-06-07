@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  background-color: red;
+  border-radius: 40px;
+  font-size: 80px;
+  font-family: Arial Black;
+}
+
+.ul {
+  color: black;
+  border-radius: 40px;
+  list-style: none;
+  text-align: left;
+}
+
+.button {
+  background-color: red;
+  align-content: right;
+  text-align: center;
+  border: none;
+  border-radius: 40px;
+  transition-duration: 0.4s;
+  float: right;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.buttiButt {
+  border-radius: 40px;
+  box-shadow: 0 2px red;
+}
+
+.buttiButt:active {
+  background-color: black;
+  transform: translateY(3px);
+}
